@@ -3,9 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background: #0f172a;
     color: white;
-    body {
-    padding-top: 80px;
-}
 }
 
 /* HERO */
@@ -95,4 +92,47 @@ h2 {
     padding: 20px;
     margin-top: 15px;
     border-radius: 10px;
+}
+
+/*IMAGENES */
+
+.hero{
+    background-image: url("../assets/PC.jpg");
+    background-size: cover;        /* ocupa todo */
+    background-position: center;   /* centrada */
+    background-repeat: no-repeat;  /* no se repite */
+    height: 100vh;                 /* altura pantalla */
+    color: white;                  /* texto visible */
+
+}
+
+/*FOOTER*/
+
+.footer {
+    background: #020617;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #7c3aed;
 }
