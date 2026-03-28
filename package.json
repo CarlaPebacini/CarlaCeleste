@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "dev": "live-server"
+    "dev": "live-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/CarlaPebacini/CarlaCeleste#readme",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
   }
 }
