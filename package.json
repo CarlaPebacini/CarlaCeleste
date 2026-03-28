@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlaPebacini/CarlaCeleste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CarlaPebacini/CarlaCeleste/issues"
+  },
+  "homepage": "https://github.com/CarlaPebacini/CarlaCeleste#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
